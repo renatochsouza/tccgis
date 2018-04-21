@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>GIS v1</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <script src="leaflet/leaflet.js"></script>
+        <script src="leaflet/leaflet-src.js"></script>
+         
+        <link rel="stylesheet" type="text/css" href="leaflet/leaflet.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!-- Push Wrapper -->
+			<div class="mp-pusher" id="mp-pusher">
+
+				<!-- mp-menu -->
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<h2 class="icon icon-world">_GIS</h2>
+						<ul>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-user" href="#">Usuario</a>
+								<div class="mp-level">
+									<h2 class="icon icon-user">Usuario</h2>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-phone" href="#">Conta</a>
+											<div class="mp-level">
+												<h2>Conta</h2>
+												<ul>
+													<li><a href="#">OPÇÃO 01</a></li>
+													<li><a href="#">OPÇÃO 02</a></li>
+													<li><a href="#">OPÇÃO 03</a></li>
+													<li><a href="#">OPÇÃO 04</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-tv" href="#">Configurações</a>
+											<div class="mp-level">
+												<h2>Configurações</h2>
+												<ul>
+													<li><a href="#">OPÇÃO 01</a></li>
+													<li><a href="#">OPÇÃO 02</a></li>
+													<li><a href="#">OPÇÃO 03</a></li>
+													<li><a href="#">OPÇÃO 04</a></li>
+												</ul>
+											</div>
+										</li>
+								    </ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-pen" href="#">Ferramentas</a>
+								<div class="mp-level">
+									<h2 class="icon icon-pen">Ferramentas</h2>
+									<ul>
+										<li><a href="#">OPÇÃO 01</a></li>
+								        <li><a href="#">OPÇÃO 02</a></li>
+										<li><a href="#">OPÇÃO 03</a></li>
+										<li><a href="#">OPÇÃO 04</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-settings" href="#">Ferramentas 02</a>
+								<div class="mp-level">
+									<h2 class="icon icon-settings">Ferramentas 02</h2>
+									<ul>
+										<li class="icon icon-arrow-left">
+											<a class="icon icon-t-shirt" href="#">Opção 01</a>
+											<div class="mp-level">
+												<h2 class="icon icon-t-shirt">Opção 01</h2>
+												<ul>
+													<li class="icon icon-arrow-left">
+														<a class="icon icon-female" href="#">CAMADA 01</a>
+														<div class="mp-level">
+															<h2>CAMADA 01</h2>
+															<ul>
+																<li class="icon icon-arrow-left"><a class="icon icon-female" href="#">Opção 01</a>
+                                                                    <div class="mp-level">
+                                                                        <h2 class="icon icon-t-shirt">Opção 01</h2>
+                                                                        <ul>
+                                                                            <li><a href="#">Opção 01</a></li>
+                                                                            <li><a href="#">Opção 02</a></li>
+                                                                            <li><a href="#">Opção 03</a></li>
+                                                                            <li><a href="#">Opção 04</a></li>
+                                                                            <li><a href="#">Opção 05</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                
+                                                                
+                                                                
+                                                                </li>
+																<li><a href="#">Opção 02</a></li>
+																<li><a href="#">Opção 03</a></li>
+																<li><a href="#">Opção 04</a></li>
+																<li><a href="#">Opção 05</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon icon-arrow-left">
+														<a class="icon icon-male" href="#">CAMADA 02</a>
+														<div class="mp-level">
+															<h2>CAMADA 02</h2>
+															<ul>
+																<li><a href="#">Opção 01</a></li>
+																<li><a href="#">Opção 02</a></li>
+																<li><a href="#">Opção 03</a></li>
+																<li><a href="#">Opção 04</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<a class="icon icon-diamond" href="#">Opção 02</a>
+										</li>
+										<li>
+											<a class="icon icon-music" href="#">Opção 03</a>
+										</li>
+										<li>
+											<a class="icon icon-food" href="#">Opção 04</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li><a class="icon icon-params" href="#">Configurações</a></li>
+							<li><a class="icon icon-wallet" href="#">Sobre</a></li>
+						</ul>
+					</div>
+				</nav>
+				<!-- /mp-menu -->
+
+				<div class="scroller"><!-- this is for emulating position fixed of the nav --> 
+					<div id=menuu><a href="#" id="trigger" class="icon icon-banknote">MENU</a></div>
+                    <div id="mapid"><script src="js/map.js"></script></div>
+				</div><!-- /scroller -->
+
+			</div><!-- /pusher -->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+		</script>
+	
+    </body>
+</html>
